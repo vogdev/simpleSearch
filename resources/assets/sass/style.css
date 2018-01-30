@@ -1,0 +1,12 @@
+    /* Medium Devices, Desktops */
+    @media (max-width: 700px) { 
+        .email{
+            display: none;
+        }
+        .date{
+            display: none;
+        }
+        .name {
+            flex: 2!important;
+        }
+    }
