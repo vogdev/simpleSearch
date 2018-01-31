@@ -31104,9 +31104,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "intro" }, [
-      _c("h1", [_vm._v("laravel simple search autocomplete functionality")]),
+      _c("h1", [_vm._v("laravel simple autocomplete search functionality")]),
       _vm._v(" "),
-      _c("p", [_vm._v('try with this words " gmail mike .com mi balli "')])
+      _c("p", [_vm._v('try with this words " gmail Mike .com America Balli "')])
     ])
   }
 ]
