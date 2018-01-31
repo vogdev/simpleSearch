@@ -5,7 +5,7 @@
             <div class="column">
                 <div class="intro">
                     <h1>laravel simple autocomplete search functionality</h1>
-                    <p>try with this words " gmail mike .com mi balli "</p>
+                    <p>try with this words " gmail Mike .com America Balli "</p>
                 </div>
                 <div class="field has-addons">
                     <div class="control">
