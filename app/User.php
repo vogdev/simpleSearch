@@ -9,6 +9,12 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+        public function scopeSearch($query, $s) {
+            return $query->where('name', 'like', '%' .$s. '%')
+                         ->orWhere('email', 'like', '%' .$s. '%');
+        }
+
+
     /**
      * The attributes that are mass assignable.
      *

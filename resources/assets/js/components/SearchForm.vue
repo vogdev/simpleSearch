@@ -5,10 +5,11 @@
             <div class="column">
                 <div class="field has-addons">
                     <div class="control">
-                     <input class="input" v-model="SearchData" type="text" placeholder="Find a user by email or name">
+                     <input class="input" id="searchinput" v-model="SearchData" type="text" placeholder="Find a user by email or name">
                     </div>
                     <div class="control">
                         <a class="button is-info" @click="search()">Search</a>
+                         <a class="button" href="/finduser">search autocomplete</a>
                     </div>
                 </div>
             </div>
@@ -31,7 +32,7 @@
  import axios from 'axios';
     export default {
         mounted() {
-            console.log('Component mounted.')
+          document.getElementById("searchinput").focus();
         },
         data() {
             return {

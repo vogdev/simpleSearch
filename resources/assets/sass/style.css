@@ -1,12 +1,18 @@
-    /* Medium Devices, Desktops */
-    @media (max-width: 700px) { 
-        .email{
-            display: none;
-        }
-        .date{
-            display: none;
-        }
-        .name {
-            flex: 2!important;
-        }
+.section {
+    padding: 1rem 1.5rem;
+}
+/* Medium Devices, Desktops */
+@media (max-width: 700px) { 
+    .email{
+        display: none;
     }
+    .date{
+        display: none;
+    }
+    .name {
+        flex: 2!important;
+    }
+    .card {
+        margin: 0 auto 10px!important;
+    }
+}
